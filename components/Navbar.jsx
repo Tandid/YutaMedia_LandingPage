@@ -21,6 +21,11 @@ const Navbar = () => (
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         YUTA MEDIA
       </h2>
+      <img
+        src="/menu.svg"
+        alt="menu"
+        className="w-[24]px h-24[px] object-contain"
+      />
     </div>
   </motion.nav>
 );
