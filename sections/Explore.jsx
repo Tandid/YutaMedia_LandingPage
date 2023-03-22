@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 import { exploreWorlds } from '../constants';
-// import { ExploreWorld } from '../data/data.interface';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -22,8 +21,7 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              Choose card
-              <br className="md:block hidden" /> to open
+              Choose card <br className="md:block hidden" /> to open
             </>
           }
           textStyles="text-center"
