@@ -1,4 +1,11 @@
-const StartSteps = (props) => {
+interface StartStepsProps {
+  number: number;
+  text: string;
+}
+
+const StartSteps: React.FC<StartStepsProps> = (
+  props: StartStepsProps
+): React.ReactElement => {
   const { number, text } = props;
   return (
     <div className="flex justify-center items-center flex-row">

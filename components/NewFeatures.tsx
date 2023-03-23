@@ -1,9 +1,19 @@
-const NewFeatures = (props) => {
+import Image from "next/image";
+
+interface NewFeaturesProps {
+  imgUrl: string;
+  title: string;
+  subtitle: string;
+}
+
+const NewFeatures: React.FC<NewFeaturesProps> = (
+  props: NewFeaturesProps
+): React.ReactElement => {
   const { imgUrl, title, subtitle } = props;
   return (
     <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
       <div className="flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-slate-600">
-        <img
+        <Image
           src={imgUrl}
           alt="icon"
           width="0"
