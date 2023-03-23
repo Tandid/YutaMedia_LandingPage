@@ -15,7 +15,7 @@ const Footer: React.FC = (): React.ReactElement => (
     <div className="2xl:max-w-[1280px] w-full flex flex-col mx-auto gap-8">
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
+          Enter the Yuta Media
         </h4>
         <button
           type="button"
@@ -29,16 +29,16 @@ const Footer: React.FC = (): React.ReactElement => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white uppercase">
-            Enter Metaverse
+            Enter Yuta Media
           </span>
         </button>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] opacity-10 bg-white" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">Metaversus</h4>
+          <h4 className="font-extrabold text-[24px] text-white">Yuta Media</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021-2022 Metaversus. All rights reserved.
+            Copyright © 2023 Yuta Media. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socials.map(
