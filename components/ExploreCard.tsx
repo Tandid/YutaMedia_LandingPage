@@ -45,7 +45,7 @@ const ExploreCard: React.FC<ExploreCardProps> = (
             />
           </div>
           <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
-            Enter the Metaverse
+            Enter the Yuta Media
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
             {title}

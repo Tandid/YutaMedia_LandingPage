@@ -17,7 +17,7 @@ const Insights: React.FC = (): React.ReactElement => (
     >
       <TypingText title="| Insight" textStyles="text-center" />
       <TitleText
-        title={<>Insight about Metaverse</>}
+        title={<>Insight about Yuta Media</>}
         textStyles="text-center"
       />
       <div className="mt-[50px] flex flex-col gap-[30px]">

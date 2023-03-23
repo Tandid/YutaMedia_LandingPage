@@ -21,7 +21,7 @@ const WhatsNew: React.FC = (): React.ReactElement => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| What's New" />
-        <TitleText title={<>What&apos;s new about Metaversus?</>} />
+        <TitleText title={<>What&apos;s new about Yuta Media?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map(
             (feature: NewFeature): React.ReactElement => (

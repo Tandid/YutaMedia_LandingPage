@@ -29,13 +29,13 @@ const Feedback: React.FC<FeedbackProps> = (
               Samantha
             </h4>
             <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
-              Founder | Metaversus
+              Founder | Yuta Media
             </p>
           </div>
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-            &quot;With the development of today&apos;s technology, Metaverse is
+            &quot;With the development of today&apos;s technology, Yuta Media is
             very useful for today&apos;s work, or can be called Web 3.0. By
-            using Metaverse, you can use it as anything!&quot;
+            using Yuta Media, you can use it as anything!&quot;
           </p>
         </motion.div>
         <motion.div
