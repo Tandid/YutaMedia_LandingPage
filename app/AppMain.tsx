@@ -23,7 +23,7 @@ const AppMain: React.FC = (): React.ReactElement => {
   };
 
   return (
-    <div className="bg-gray-900 overflow-hidden">
+    <div className="bg-gray-500 overflow-hidden">
       <Navbar />
       {/* <Banner onStampClicked={onStampClicked} /> */}
       <Main />
