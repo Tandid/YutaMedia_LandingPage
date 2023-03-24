@@ -1,3 +1,8 @@
+export interface Company {
+  name: string;
+  imgUrl: string;
+}
+
 export interface ExploreWorld {
   id: string;
   imgUrl: string;

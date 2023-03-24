@@ -20,13 +20,10 @@ const Explore: React.FC = (): React.ReactElement => {
         viewport={{ once: false, amount: 0.25 }}
         className="2xl:max-w-[1280px] w-full mx-auto flex flex-col"
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| Services" textStyles="text-center" />
         <TitleText
           title={
-            <>
-              Choose the world you want
-              <br className="md:block hidden" /> to explore
-            </>
+            <>We're a boutique content studio designed to help you grow.</>
           }
           textStyles="text-center"
         />

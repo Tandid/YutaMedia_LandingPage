@@ -32,12 +32,8 @@ const Banner: React.FC<BannerProps> = (
             variants={textVariant(1.2)}
             className="flex flex-row justify-center items-center"
           >
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
-              Ma
-            </h1>
-            <div className="md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]" />
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
-              ness
+            <h1 className="font-bold lg:text-[50px] md:text-[50px] sm:text-[60px] text-[44px] lg:leading-[100px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
+              Purpose Driven Content Marketing
             </h1>
           </motion.div>
         </div>

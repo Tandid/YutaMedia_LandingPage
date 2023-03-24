@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import NewFeatures from "../components/NewFeatures";
-import TypingText from "../components/TypingText";
-import { newFeatures } from "../data/data";
+import { companies } from "../data/data";
 import Image from "next/image";
 import TitleText from "../components/TitleText";
-import { NewFeature } from "../data/data.interface";
+import { Company } from "../data/data.interface";
 
-const WhatsNew: React.FC = (): React.ReactElement => (
+const Main: React.FC = (): React.ReactElement => (
   <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
     <motion.div
       variants={staggerContainer()}
@@ -20,14 +18,14 @@ const WhatsNew: React.FC = (): React.ReactElement => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| Why We're Different" />
-        <TitleText title={<>Quality is Everything.</>} />
+        <TitleText title={<>Purpose driven content marketing</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map(
-            (feature: NewFeature): React.ReactElement => (
-              <NewFeatures key={feature.title} {...feature} />
-            )
-          )}
+          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
+            Stop publishing mindlessly.
+          </h1>
+          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
+            Start making a difference.
+          </h1>
         </div>
       </motion.div>
       <motion.div
@@ -35,8 +33,8 @@ const WhatsNew: React.FC = (): React.ReactElement => (
         className="flex-1 flex justify-center items-center"
       >
         <Image
-          src="/WhatsNew.png"
-          alt="whats-new"
+          src="/Hero.png"
+          alt="hero"
           width="0"
           height="0"
           className="w-[90%] h-[90%] object-contain"
@@ -44,7 +42,21 @@ const WhatsNew: React.FC = (): React.ReactElement => (
         />
       </motion.div>
     </motion.div>
+    <div className="flex gap-8">
+      {companies.map(
+        (company: Company): React.ReactElement => (
+          <Image
+            key={company.name}
+            src={company.imgUrl}
+            alt={company.name}
+            height="0"
+            width="0"
+            className="cursor-pointer object-contain w-[150px] h-[150px]"
+          />
+        )
+      )}
+    </div>
   </section>
 );
 
-export default WhatsNew;
+export default Main;

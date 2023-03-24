@@ -5,6 +5,7 @@ interface TitleTextProps {
   title: React.ReactElement;
   textStyles?: string;
 }
+
 const TitleText: React.FC<TitleTextProps> = (
   props: TitleTextProps
 ): React.ReactElement => {

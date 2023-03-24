@@ -8,6 +8,7 @@ import About from "../sections/About";
 import Explore from "../sections/Explore";
 import Feedback from "../sections/Feedback";
 import GetStarted from "../sections/GetStarted";
+import Main from "../sections/Main";
 import Banner from "../sections/Banner";
 import Insights from "../sections/Insights";
 import WhatsNew from "../sections/WhatsNew";
@@ -24,7 +25,8 @@ const AppMain: React.FC = (): React.ReactElement => {
   return (
     <div className="bg-gray-900 overflow-hidden">
       <Navbar />
-      <Banner onStampClicked={onStampClicked} />
+      {/* <Banner onStampClicked={onStampClicked} /> */}
+      <Main />
       <div className="relative">
         <About />
         <div className="gradient-03 z-0" />
@@ -35,9 +37,9 @@ const AppMain: React.FC = (): React.ReactElement => {
       <div className="relative">
         <GetStarted />
         <div className="gradient-04 z-0" />
-        <WhatsNew />
+        {/* <WhatsNew /> */}
       </div>
-      <World />
+      {/* <World />  */}
       <div className="relative">
         <Insights />
         <div className="gradient-04 z-0" />

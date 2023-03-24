@@ -1,30 +1,68 @@
-import { ExploreWorld, Insight, NewFeature, Social } from "./data.interface";
+import {
+  Company,
+  ExploreWorld,
+  Insight,
+  NewFeature,
+  Social,
+} from "./data.interface";
+
+export const companies: Company[] = [
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company01.png",
+  },
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company02.png",
+  },
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company03.png",
+  },
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company04.png",
+  },
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company05.png",
+  },
+  {
+    name: "Search Engine Land",
+    imgUrl: "/Company06.png",
+  },
+];
 
 export const exploreWorlds: ExploreWorld[] = [
   {
     id: "world-1",
     imgUrl: "/Planet01.png",
-    title: "The Hogwarts",
+    title: "Content Strategy",
   },
   {
     id: "world-2",
     imgUrl: "/Planet02.png",
-    title: "The Upside Down",
+    title: "Copywriting",
   },
   {
     id: "world-3",
     imgUrl: "/Planet03.png",
-    title: "Kadirojo Permai",
+    title: "Content Distribution",
   },
   {
     id: "world-4",
     imgUrl: "/Planet04.png",
-    title: "Paradise Island",
+    title: "Content Design",
   },
   {
     id: "world-5",
     imgUrl: "/Planet05.png",
-    title: "Hawkins Labs",
+    title: "SEO",
+  },
+  {
+    id: "world-5",
+    imgUrl: "/Planet05.png",
+    title: "SEM & PPC",
   },
 ];
 
