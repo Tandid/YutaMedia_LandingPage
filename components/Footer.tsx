@@ -14,8 +14,8 @@ const Footer: React.FC = (): React.ReactElement => (
     <div className="footer-gradient" />
     <div className="2xl:max-w-[1280px] w-full flex flex-col mx-auto gap-8">
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Have and idea? Let's bring it to life.
+        <h4 className="font-bold md:text-[64px] text-[44px] text-black">
+          Have an idea? Let's bring it to life.
         </h4>
         <button
           type="button"
@@ -28,16 +28,16 @@ const Footer: React.FC = (): React.ReactElement => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <span className="font-normal text-[16px] text-white uppercase">
+          <span className="font-normal text-[16px] text-black uppercase">
             Get in Touch
           </span>
         </button>
       </div>
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] opacity-10 bg-white" />
+        <div className="mb-[50px] h-[2px] opacity-10 bg-black" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">Yuta Media</h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
+          <h4 className="font-extrabold text-[24px] text-black">Yuta Media</h4>
+          <p className="font-normal text-[14px] text-black opacity-50">
             Copyright 2022 © Yuta Media, LLC | Purpose Driven Content Marketing
           </p>
           <div className="flex gap-4">

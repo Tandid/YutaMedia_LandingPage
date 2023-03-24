@@ -12,23 +12,23 @@ export const companies: Company[] = [
     imgUrl: "/Company01.png",
   },
   {
-    name: "Search Engine Land",
+    name: "Drift",
     imgUrl: "/Company02.png",
   },
   {
-    name: "Search Engine Land",
+    name: "Forbes",
     imgUrl: "/Company03.png",
   },
   {
-    name: "Search Engine Land",
+    name: "Elementor",
     imgUrl: "/Company04.png",
   },
   {
-    name: "Search Engine Land",
+    name: "Appsflyer",
     imgUrl: "/Company05.png",
   },
   {
-    name: "Search Engine Land",
+    name: "Gansevoort",
     imgUrl: "/Company06.png",
   },
 ];
@@ -90,21 +90,19 @@ export const newFeatures: NewFeature[] = [
 export const insights: Insight[] = [
   {
     imgUrl: "/Planet06.png",
-    title: "The launch of the Yuta Media makes Elon musk ketar-ketir",
-    subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+    title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",
+    subtitle: "Content Strategy - March 15, 2022",
   },
   {
     imgUrl: "/Planet07.png",
-    title: "7 tips to easily master the madness of the Yuta Media",
-    subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+    title:
+      "Guide: How to easily earn content marketing buy-in across your organization",
+    subtitle: "Content Strategy - March 15, 2022",
   },
   {
     imgUrl: "/Planet08.png",
-    title: "With one platform you can explore the whole world virtually",
-    subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+    title: "How Yuta Media Creates Content That Matters",
+    subtitle: "Content Strategy - March 15, 2022",
   },
 ];
 

@@ -25,17 +25,16 @@ const Feedback: React.FC<FeedbackProps> = (
         >
           <div className="feedback-gradient" />
           <div>
-            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
+            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-black">
               Samantha
             </h4>
-            <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
+            <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-black">
               Founder | Yuta Media
             </p>
           </div>
-          <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-            &quot;With the development of today&apos;s technology, Yuta Media is
-            very useful for today&apos;s work, or can be called Web 3.0. By
-            using Yuta Media, you can use it as anything!&quot;
+          <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-black">
+            How we grew a beatbox publication organically from 4,000 to 150,000
+            monthly readers in 6 months
           </p>
         </motion.div>
         <motion.div

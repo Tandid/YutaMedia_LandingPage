@@ -21,7 +21,7 @@ const About: React.FC = (): React.ReactElement => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-slate-300"
       >
-        <span className="font-extrabold text-white">
+        <span className="font-extrabold text-black">
           Purpose driven content marketing
         </span>
       </motion.p>

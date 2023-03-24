@@ -12,17 +12,17 @@ const Navbar: React.FC = (): React.ReactElement => (
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8">
-      <h2 className="uppercase font-extrabold text-[24px] leading-[30px] text-white">
+      <h2 className="uppercase font-extrabold text-[24px] leading-[30px] text-black">
         Yuta Media
       </h2>
 
-      <h3 className="uppercase font-extrabold text-[16px] leading-[30px] text-white">
+      <h3 className="uppercase font-extrabold text-[16px] leading-[30px] text-black">
         Blog
       </h3>
-      <h3 className="uppercase font-extrabold text-[16px] leading-[30px] text-white">
+      <h3 className="uppercase font-extrabold text-[16px] leading-[30px] text-black">
         Case Studies
       </h3>
-      <button className="uppercase font-extrabold text-[16px] leading-[30px] text-white">
+      <button className="uppercase font-extrabold text-[16px] leading-[30px] text-black">
         Get Started
       </button>
       <Image src="/Menu.svg" alt="menu" width="24" height="24" />

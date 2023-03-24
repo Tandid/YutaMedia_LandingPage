@@ -20,10 +20,10 @@ const Main: React.FC = (): React.ReactElement => (
       >
         <TitleText title={<>Purpose driven content marketing</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
+          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-black">
             Stop publishing mindlessly.
           </h1>
-          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
+          <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-black">
             Start making a difference.
           </h1>
         </div>

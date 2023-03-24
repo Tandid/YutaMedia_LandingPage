@@ -24,7 +24,7 @@ const Banner: React.FC<BannerProps> = (
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1
             variants={textVariant(1.1)}
-            className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white"
+            className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-black"
           >
             Yuta Media
           </motion.h1>
@@ -32,7 +32,7 @@ const Banner: React.FC<BannerProps> = (
             variants={textVariant(1.2)}
             className="flex flex-row justify-center items-center"
           >
-            <h1 className="font-bold lg:text-[50px] md:text-[50px] sm:text-[60px] text-[44px] lg:leading-[100px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
+            <h1 className="font-bold lg:text-[50px] md:text-[50px] sm:text-[60px] text-[44px] lg:leading-[100px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-black">
               Purpose Driven Content Marketing
             </h1>
           </motion.div>
