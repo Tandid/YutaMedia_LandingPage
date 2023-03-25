@@ -10,7 +10,7 @@ import { exploreWorlds } from "../data/data";
 import { ExploreWorld } from "../data/data.interface";
 
 const Explore: React.FC = (): React.ReactElement => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState("world-1");
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12">
       <motion.div
