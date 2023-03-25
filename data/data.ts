@@ -87,20 +87,20 @@ export const newFeatures: NewFeature[] = [
   },
 ];
 
-export const Articles: Article[] = [
+export const articles: Article[] = [
   {
-    imgUrl: "/Planet06.png",
+    imgUrl: "/Article01.png",
     title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",
     subtitle: "Content Strategy - March 15, 2022",
   },
   {
-    imgUrl: "/Planet07.png",
+    imgUrl: "/Article02.png",
     title:
       "Guide: How to easily earn content marketing buy-in across your organization",
     subtitle: "Content Strategy - March 15, 2022",
   },
   {
-    imgUrl: "/Planet08.png",
+    imgUrl: "/Article03.png",
     title: "How Yuta Media Creates Content That Matters",
     subtitle: "Content Strategy - March 15, 2022",
   },

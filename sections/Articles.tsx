@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
 import ArticleCard from "../components/ArticleCard";
 import TypingText from "../components/TypingText";
-import { Articles } from "../data/data";
+import { articles } from "../data/data";
 import TitleText from "../components/TitleText";
 import { Article } from "../data/data.interface";
 
@@ -18,12 +18,12 @@ const Articles: React.FC = (): React.ReactElement => (
       <TypingText title="| Articles" textStyles="text-center" />
       <TitleText title={<>Our latest resources</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
-        {Articles.map(
-          (Article: Article, index: number): React.ReactElement => (
+        {articles.map(
+          (article: Article, index: number): React.ReactElement => (
             <ArticleCard
               key={`Article-${index}`}
               index={index + 1}
-              {...Article}
+              {...article}
             />
           )
         )}
