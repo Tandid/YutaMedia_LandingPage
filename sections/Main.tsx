@@ -1,10 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  staggerContainer,
-  fadeIn,
-  zoomIn,
-  planetVariants,
-} from "../utils/motion";
+import { staggerContainer, fadeIn, zoomIn, imgVariants } from "../utils/motion";
 import { companies } from "../data/data";
 import Image from "next/image";
 import TitleText from "../components/TitleText";
@@ -37,16 +32,16 @@ const Main: React.FC = (): React.ReactElement => (
             >
               <TitleText title={<>Purpose driven content marketing</>} />
               <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-                <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-black">
+                <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-gray-800">
                   Stop publishing mindlessly.
                 </h1>
-                <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-black">
+                <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-gray-800">
                   Start making a difference.
                 </h1>
               </div>
             </motion.div>
             <motion.div
-              variants={planetVariants("right")}
+              variants={imgVariants("right")}
               className="flex-1 flex justify-center items-center"
             >
               <Image
@@ -69,7 +64,7 @@ const Main: React.FC = (): React.ReactElement => (
       viewport={{ once: false, amount: 0.25 }}
       className="sm:px-16 px-6 py-8 relative"
     >
-      <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8 bg-gray-100">
+      <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8 opacity-50">
         {companies.map(
           (company: Company): React.ReactElement => (
             <Image

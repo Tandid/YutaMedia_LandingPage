@@ -23,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardProps> = (
         width="0"
         height="0"
         alt="article"
-        className="md:w-[270px] w-full h-[250px] border-[1px] rounded-[32px] object-cover"
+        className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
         unoptimized
       />
       <div className="flex flex-col">

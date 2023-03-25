@@ -138,7 +138,7 @@ export const fade = (direction: any, type: any, delay: any, duration: any) => ({
   },
 });
 
-export const planetVariants = (direction: string) => ({
+export const imgVariants = (direction: string) => ({
   hidden: {
     x: direction === "left" ? "-100%" : "100%",
     rotate: 120,

@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 const About: React.FC = (): React.ReactElement => (
   <div>
     <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
-      <div className="gradient-02 z-0" />
+      <div className="z-0" />
       <motion.div
         variants={staggerContainer()}
         initial="hidden"
@@ -33,10 +33,9 @@ const About: React.FC = (): React.ReactElement => (
       >
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
-          className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] relative"
+          className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:p-8 p-4 rounded-[32px] relative"
         >
-          <div className="feedback-gradient" />
-          <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-black">
+          <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-gray-800">
             Our research process is our silver bullet. We're dedicated to
             understanding your customers, product, and industry inside and out.
           </h4>

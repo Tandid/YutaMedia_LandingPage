@@ -11,33 +11,23 @@ const Footer: React.FC = (): React.ReactElement => (
     whileInView="show"
     className="sm:p-16 xs:p-8 px-6 py-12 py-8 relative"
   >
-    <div className="footer-gradient" />
     <div className="2xl:max-w-[1280px] w-full flex flex-col mx-auto gap-8">
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-black">
+        <h4 className="font-bold md:text-[64px] text-[44px] text-gray-800">
           Have an idea? Let's bring it to life.
         </h4>
         <button
           type="button"
-          className="flex items-center h-fit py-4 px-6 bg-sky-700 rounded-[32px] gap-[12px]"
+          className="flex items-center h-fit py-4 px-6 bg-sky-300 rounded-[32px] gap-[12px]"
         >
-          <Image
-            src="/Headset.svg"
-            width="0"
-            height="0"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-black uppercase">
-            Get in Touch
-          </span>
+          <span className="font-bold text-[16px] text-white">Let's Chat!</span>
         </button>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] opacity-10 bg-black" />
         <div className="flex items-center justify-between flex-wrap gap-4">
           <Image src="/Hero.png" alt="menu" width="100" height="24" />
-          <p className="font-normal text-[14px] text-black opacity-50">
+          <p className="font-normal text-[14px] text-gray-800 opacity-50">
             Copyright 2022 © Yuta Media, LLC | Purpose Driven Content Marketing
           </p>
           <div className="flex gap-4">

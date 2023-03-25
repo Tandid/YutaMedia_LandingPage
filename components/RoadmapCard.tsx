@@ -44,10 +44,10 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
       />
       {active !== id ? (
         <div className="absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
-          <h3 className="font-semibold sm:text-[26px] text-[18px] text-black">
+          <h3 className="font-semibold sm:text-[26px] text-[18px] text-gray-800">
             {title}
           </h3>
-          <h3 className="font-semibold sm:text-[20px] text-[18px] text-black">
+          <h3 className="font-semibold sm:text-[20px] text-[18px] text-gray-800">
             {subtitle}
           </h3>
         </div>
@@ -70,7 +70,7 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="absolute p-8 justify-start w-full flex-col font-normal text-[20px] text-black"
+          className="absolute p-8 justify-start w-full flex-col font-normal text-[20px] text-gray-800"
         >
           {description}
           {/* <TypingText title={description} /> */}

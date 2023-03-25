@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
+import { staggerContainer, fadeIn, imgVariants } from "../utils/motion";
 import TitleText from "../components/TitleText";
 import TypingText from "../components/TypingText";
 import Image from "next/image";
@@ -7,7 +7,7 @@ import Image from "next/image";
 const CaseStudies: React.FC = (): React.ReactElement => (
   <div>
     <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
-      <div className="gradient-02 z-0" />
+      <div className="z-0" />
       <motion.div
         variants={staggerContainer()}
         initial="hidden"
@@ -35,7 +35,7 @@ const CaseStudies: React.FC = (): React.ReactElement => (
         className="2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8"
       >
         <motion.div
-          variants={planetVariants("left")}
+          variants={imgVariants("left")}
           className="flex-1 flex justify-center items-center"
         >
           <Image
@@ -88,7 +88,7 @@ const CaseStudies: React.FC = (): React.ReactElement => (
           </p>
         </motion.div>
         <motion.div
-          variants={planetVariants("right")}
+          variants={imgVariants("right")}
           className="flex-1 flex justify-center items-center"
         >
           <Image

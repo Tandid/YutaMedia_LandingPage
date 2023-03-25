@@ -30,7 +30,7 @@ export const companies: Company[] = [
 export const roadmaps: Roadmap[] = [
   {
     id: "week-1",
-    imgUrl: "/Planet01.png",
+    imgUrl: "/img01.png",
     title: "Week 1",
     subtitle: "Get acquainted",
     description:
@@ -38,7 +38,7 @@ export const roadmaps: Roadmap[] = [
   },
   {
     id: "week-2",
-    imgUrl: "/Planet02.png",
+    imgUrl: "/img02.png",
     title: "Week 2",
     subtitle: "Pull out the stethoscope",
     description:
@@ -46,7 +46,7 @@ export const roadmaps: Roadmap[] = [
   },
   {
     id: "week-3",
-    imgUrl: "/Planet03.png",
+    imgUrl: "/img03.png",
     title: "Week 3",
     subtitle: "Document the damn strategy",
     description:
@@ -54,7 +54,7 @@ export const roadmaps: Roadmap[] = [
   },
   {
     id: "week-4",
-    imgUrl: "/Planet04.png",
+    imgUrl: "/img04.png",
     title: "Week 4",
     subtitle: "Kick the content machine into gear",
     description:
@@ -62,7 +62,7 @@ export const roadmaps: Roadmap[] = [
   },
   {
     id: "week-5",
-    imgUrl: "/Planet05.png",
+    imgUrl: "/img05.png",
     title: "Week 5+",
     subtitle: "Trim the fat and turn up the heat",
     description:

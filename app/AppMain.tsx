@@ -9,30 +9,28 @@ import Roadmap from "../sections/Roadmap";
 import CaseStudies from "../sections/CaseStudies";
 import Main from "../sections/Main";
 import Services from "../sections/Services";
-import Banner from "../sections/Banner";
 import Articles from "../sections/Articles";
 
 const AppMain: React.FC = (): React.ReactElement => {
   return (
-    <div className="bg-gray-100 overflow-hidden">
+    <div className="bg-white overflow-hidden">
       <Navbar />
-      {/* <Banner onStampClicked={onStampClicked} /> */}
       <Main />
       <div className="relative">
         <Services />
         <About />
-        <div className="gradient-03 z-0" />
+        <div className="z-0" />
         <div>
           <Roadmap />
         </div>
       </div>
       <div className="relative">
         <CaseStudies />
-        <div className="gradient-03 z-0" />
+        <div className="z-0" />
       </div>
       <div className="relative">
         <Articles />
-        <div className="gradient-04 z-0" />
+        <div className="z-0" />
       </div>
       <Footer />
     </div>
