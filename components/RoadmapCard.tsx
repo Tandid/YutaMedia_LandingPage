@@ -25,6 +25,7 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
     title,
     subtitle,
     description,
+    color,
     active,
     handleClick,
   } = props;
@@ -40,16 +41,16 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
         src={imgUrl}
         alt={title}
         fill
-        className="absolute w-full h-full object-cover rounded-[24px] opacity-50"
+        className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
         <div className="absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
           <h3 className="font-semibold sm:text-[26px] text-[18px] text-gray-800">
             {title}
           </h3>
-          <h3 className="font-semibold sm:text-[20px] text-[18px] text-gray-800">
+          {/* <h3 className="font-semibold sm:text-[20px] text-[18px] text-gray-800">
             {subtitle}
-          </h3>
+          </h3> */}
         </div>
       ) : (
         <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
@@ -72,7 +73,7 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
           viewport={{ once: false, amount: 0.25 }}
           className="absolute p-8 justify-start w-full flex-col font-normal text-[20px] text-gray-800"
         >
-          {description}
+          {/* {description} */}
           {/* <TypingText title={description} /> */}
         </motion.div>
       )}
