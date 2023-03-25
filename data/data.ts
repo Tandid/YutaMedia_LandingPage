@@ -91,20 +91,40 @@ export const articles: Article[] = [
 
 export const services: Service[] = [
   {
-    imgUrl: "/Article01.png",
-    title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",
-    subtitle: "Content Strategy - March 15, 2022",
+    imgUrl: "/Service01.png",
+    title: " Content Strategy",
+    subtitle:
+      "We help plan, create, measure, and optimize content strategies tied to tangible business goals.",
   },
   {
-    imgUrl: "/Article02.png",
-    title:
-      "Guide: How to easily earn content marketing buy-in across your organization",
-    subtitle: "Content Strategy - March 15, 2022",
+    imgUrl: "/Service02.png",
+    title: "Copywriting",
+    subtitle:
+      "From ad copy to ebooks and everything in between, we take create content that makes a difference.",
   },
   {
-    imgUrl: "/Article03.png",
-    title: "How Yuta Media Creates Content That Matters",
-    subtitle: "Content Strategy - March 15, 2022",
+    imgUrl: "/Service03.png",
+    title: "Content Distribution",
+    subtitle:
+      "Content is king and distribution is queen. We make sure our content goes beyond your site and into the hands of your targeted readers.",
+  },
+  {
+    imgUrl: "/Service04.png",
+    title: " Content Design",
+    subtitle:
+      "We build, write, and optimize powerful landing pages, websites, and social content at scale.",
+  },
+  {
+    imgUrl: "/Service05.png",
+    title: "SEO",
+    subtitle:
+      "We rigorously audit every piece of content we produce, and provide the knowledge and tools you need to rank higher, faster.",
+  },
+  {
+    imgUrl: "/Service06.png",
+    title: "SEM & PPC",
+    subtitle:
+      "We help craft and manage powerful content-driven paid campaigns that build trust and drive conversions.",
   },
 ];
 
