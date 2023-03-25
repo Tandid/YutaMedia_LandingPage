@@ -37,32 +37,42 @@ export const exploreWorlds: ExploreWorld[] = [
   {
     id: "world-1",
     imgUrl: "/Planet01.png",
-    title: "Content Strategy",
+    title: "Week 1",
+    subtitle: "Get acquainted",
+    description:
+      "First dates aren't easy. But what we know is that we both swiped right. We begin our journey together by identifying what your goals are and how we can help. No ghosting allowed 👻",
   },
   {
     id: "world-2",
     imgUrl: "/Planet02.png",
-    title: "Copywriting",
+    title: "Week 2",
+    subtitle: "Pull out the stethoscope",
+    description:
+      "Through social listening, competitive research, and meeting your internal product experts with your team, we'll diagnose your key challenges and unearth opportunities for growth.",
   },
   {
     id: "world-3",
     imgUrl: "/Planet03.png",
-    title: "Content Distribution",
+    title: "Week 3",
+    subtitle: "Document the damn strategy",
+    description:
+      "We then gather all our learnings from week 2 into a documented strategy, which is broken down into four parts: content plan, technical audit, voice guide, and distribution plan.",
   },
   {
     id: "world-4",
     imgUrl: "/Planet04.png",
-    title: "Content Design",
+    title: "Week 4",
+    subtitle: "Kick the content machine into gear",
+    description:
+      "Once aligned, our content team will begin the content production process. We'll simultaneously set up foundational reporting dashboards so we can track and measure progress. Transparency is 🔑.",
   },
   {
     id: "world-5",
     imgUrl: "/Planet05.png",
-    title: "SEO",
-  },
-  {
-    id: "world-5",
-    imgUrl: "/Planet05.png",
-    title: "SEM & PPC",
+    title: "Week 5+",
+    subtitle: "Trim the fat and turn up the heat",
+    description:
+      "Content marketing is an ongoing testing process. We'll double (or quadruple) down on things that work.",
   },
 ];
 

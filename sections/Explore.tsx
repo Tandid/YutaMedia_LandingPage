@@ -20,11 +20,9 @@ const Explore: React.FC = (): React.ReactElement => {
         viewport={{ once: false, amount: 0.25 }}
         className="2xl:max-w-[1280px] w-full mx-auto flex flex-col"
       >
-        <TypingText title="| Services" textStyles="text-center" />
+        <TypingText title="| Our Process" textStyles="text-center" />
         <TitleText
-          title={
-            <>We're a boutique content studio designed to help you grow.</>
-          }
+          title={<>We're always Learning.</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
