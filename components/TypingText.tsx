@@ -14,7 +14,7 @@ const TypingText: React.FC<TypingTextProps> = (
   return (
     <motion.p
       variants={textContainer}
-      className={`font-normal text-[14px] ${textStyles}`}
+      className={`font-normal text-[24px] ${textStyles}`}
     >
       {Array.from(title).map((letter: string, index: number) => {
         return (
