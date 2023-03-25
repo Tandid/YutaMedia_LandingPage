@@ -29,6 +29,7 @@ const AppMain: React.FC = (): React.ReactElement => {
       <Main />
       <div className="relative">
         <About />
+        <Feedback />
         <div className="gradient-03 z-0" />
         <div ref={exploreRef}>
           <Explore />
@@ -37,13 +38,12 @@ const AppMain: React.FC = (): React.ReactElement => {
       <div className="relative">
         <GetStarted />
         <div className="gradient-03 z-0" />
-        {/* <WhatsNew /> */}
+        <WhatsNew />
       </div>
       {/* <World />  */}
       <div className="relative">
         <Articles />
         <div className="gradient-04 z-0" />
-        <Feedback onStampClicked={onStampClicked} />
       </div>
       <Footer />
     </div>

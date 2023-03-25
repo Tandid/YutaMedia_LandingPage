@@ -2,14 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
-interface FeedbackProps {
-  onStampClicked?: () => void;
-}
-
-const Feedback: React.FC<FeedbackProps> = (
-  props: FeedbackProps
-): React.ReactElement => {
-  const { onStampClicked } = props;
+const Feedback: React.FC = (): React.ReactElement => {
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
       <motion.div
@@ -24,26 +17,18 @@ const Feedback: React.FC<FeedbackProps> = (
           className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] relative border-slate-600"
         >
           <div className="feedback-gradient" />
-          <div>
-            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-black">
-              Samantha
-            </h4>
-            <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-black">
-              Founder | Yuta Media
-            </p>
-          </div>
-          <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-black">
-            How we grew a beatbox publication organically from 4,000 to 150,000
-            monthly readers in 6 months
-          </p>
+          <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-black">
+            Our research process is our silver bullet. We're dedicated to
+            understanding your customers, product, and industry inside and out.
+          </h4>
         </motion.div>
         <motion.div
           variants={fadeIn("left", "tween", 0.2, 1)}
           className="relative flex-1 flex justify-center items-center"
         >
           <Image
-            src="/Planet09.png"
-            alt="planet-09"
+            src="/bg.png"
+            alt="cover"
             width="0"
             height="0"
             className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
@@ -52,20 +37,7 @@ const Feedback: React.FC<FeedbackProps> = (
           <motion.div
             variants={zoomIn(0.4, 1)}
             className="lg:block hidden absolute -left-[10%] top-[3%]"
-          >
-            <Image
-              src="/Stamp.png"
-              alt="stamp"
-              width="0"
-              height="0"
-              className="w-[155px] h-[155px] object-contain cursor-pointer"
-              unoptimized
-              onClick={(e: React.MouseEvent<HTMLImageElement>): void => {
-                e.preventDefault();
-                onStampClicked && onStampClicked();
-              }}
-            />
-          </motion.div>
+          ></motion.div>
         </motion.div>
       </motion.div>
     </section>
