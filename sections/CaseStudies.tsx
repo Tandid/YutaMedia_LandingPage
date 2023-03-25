@@ -4,7 +4,7 @@ import TitleText from "../components/TitleText";
 import TypingText from "../components/TypingText";
 import Image from "next/image";
 
-const GetStarted: React.FC = (): React.ReactElement => (
+const CaseStudies: React.FC = (): React.ReactElement => (
   <div>
     <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
       <div className="gradient-02 z-0" />
@@ -105,4 +105,4 @@ const GetStarted: React.FC = (): React.ReactElement => (
   </div>
 );
 
-export default GetStarted;
+export default CaseStudies;

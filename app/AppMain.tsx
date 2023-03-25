@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "../sections/About";
 import Roadmap from "../sections/Roadmap";
-import GetStarted from "../sections/GetStarted";
+import CaseStudies from "../sections/CaseStudies";
 import Main from "../sections/Main";
 import Banner from "../sections/Banner";
 import Articles from "../sections/Articles";
@@ -33,7 +33,7 @@ const AppMain: React.FC = (): React.ReactElement => {
         </div>
       </div>
       <div className="relative">
-        <GetStarted />
+        <CaseStudies />
         <div className="gradient-03 z-0" />
       </div>
       {/* <World />  */}
