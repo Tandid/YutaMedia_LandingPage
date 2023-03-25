@@ -3,14 +3,14 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
-import ExploreCard from "../components/ExploreCard";
+import RoadmapCard from "../components/RoadmapCard";
 import TitleText from "../components/TitleText";
 import TypingText from "../components/TypingText";
-import { exploreWorlds } from "../data/data";
-import { ExploreWorld } from "../data/data.interface";
+import { roadmaps } from "../data/data";
+import { Roadmap } from "../data/data.interface";
 
-const Explore: React.FC = (): React.ReactElement => {
-  const [active, setActive] = useState("world-1");
+const Roadmap: React.FC = (): React.ReactElement => {
+  const [active, setActive] = useState("roadmap-1");
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12">
       <motion.div
@@ -26,11 +26,11 @@ const Explore: React.FC = (): React.ReactElement => {
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map(
-            (world: ExploreWorld, index: number): React.ReactElement => (
-              <ExploreCard
-                key={world.id}
-                {...world}
+          {roadmaps.map(
+            (roadmap: Roadmap, index: number): React.ReactElement => (
+              <RoadmapCard
+                key={roadmap.id}
+                {...roadmap}
                 index={index}
                 active={active}
                 handleClick={setActive}
@@ -43,4 +43,4 @@ const Explore: React.FC = (): React.ReactElement => {
   );
 };
 
-export default Explore;
+export default Roadmap;

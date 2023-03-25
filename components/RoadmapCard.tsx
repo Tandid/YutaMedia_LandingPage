@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeIn } from "../utils/motion";
 import { staggerContainer } from "../utils/motion";
-import TypingText from "../components/TypingText";
+import TypingText from "./TypingText";
 
-interface ExploreCardProps {
+interface RoadmapCardProps {
   index: number;
   id: string;
   imgUrl: string;
@@ -15,8 +15,8 @@ interface ExploreCardProps {
   handleClick?: (id: string) => void;
 }
 
-const ExploreCard: React.FC<ExploreCardProps> = (
-  props: ExploreCardProps
+const RoadmapCard: React.FC<RoadmapCardProps> = (
+  props: RoadmapCardProps
 ): React.ReactElement => {
   const {
     index,
@@ -80,4 +80,4 @@ const ExploreCard: React.FC<ExploreCardProps> = (
   );
 };
 
-export default ExploreCard;
+export default RoadmapCard;

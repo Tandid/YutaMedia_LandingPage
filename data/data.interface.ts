@@ -3,18 +3,12 @@ export interface Company {
   imgUrl: string;
 }
 
-export interface ExploreWorld {
+export interface Roadmap {
   id: string;
   imgUrl: string;
   title: string;
   subtitle: string;
   description: string;
-}
-
-export interface NewFeature {
-  imgUrl: string;
-  title: string;
-  subtitle: string;
 }
 
 export interface Article {

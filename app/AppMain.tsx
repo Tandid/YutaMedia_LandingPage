@@ -5,7 +5,7 @@ import { useRef } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "../sections/About";
-import Explore from "../sections/Explore";
+import Roadmap from "../sections/Roadmap";
 import GetStarted from "../sections/GetStarted";
 import Main from "../sections/Main";
 import Banner from "../sections/Banner";
@@ -29,7 +29,7 @@ const AppMain: React.FC = (): React.ReactElement => {
         <About />
         <div className="gradient-03 z-0" />
         <div ref={exploreRef}>
-          <Explore />
+          <Roadmap />
         </div>
       </div>
       <div className="relative">

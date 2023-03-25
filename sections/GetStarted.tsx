@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import StartSteps from "../components/StartSteps";
 import TitleText from "../components/TitleText";
 import TypingText from "../components/TypingText";
-import { startingFeatures } from "../data/data";
 import Image from "next/image";
 
 const GetStarted: React.FC = (): React.ReactElement => (
