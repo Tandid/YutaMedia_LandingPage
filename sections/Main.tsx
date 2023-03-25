@@ -33,7 +33,7 @@ const Main: React.FC = (): React.ReactElement => (
         className="flex-1 flex justify-center items-center"
       >
         <Image
-          src="/Hero.png"
+          src="/Hero1.png"
           alt="hero"
           width="0"
           height="0"
@@ -42,20 +42,30 @@ const Main: React.FC = (): React.ReactElement => (
         />
       </motion.div>
     </motion.div>
-    <div className="flex gap-8">
-      {companies.map(
-        (company: Company): React.ReactElement => (
-          <Image
-            key={company.name}
-            src={company.imgUrl}
-            alt={company.name}
-            height="0"
-            width="0"
-            className="cursor-pointer object-contain w-[150px] h-[150px]"
-          />
-        )
-      )}
-    </div>
+    <motion.nav
+      variants={staggerContainer()}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="sm:px-16 px-6 py-8 relative"
+    >
+      <div className="absolute w-[50%] inset-0 gradient-01" />
+      <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8">
+        {companies.map(
+          (company: Company): React.ReactElement => (
+            <Image
+              key={company.name}
+              src={company.imgUrl}
+              alt={company.name}
+              height="0"
+              width="0"
+              className="object-contain w-[150px] h-[100px]"
+            />
+          )
+        )}
+      </div>
+    </motion.nav>
+    <div className="flex gap-8"></div>
   </section>
 );
 

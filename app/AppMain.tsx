@@ -11,7 +11,6 @@ import Main from "../sections/Main";
 import Services from "../sections/Services";
 import Banner from "../sections/Banner";
 import Articles from "../sections/Articles";
-import World from "../sections/World";
 
 const AppMain: React.FC = (): React.ReactElement => {
   return (
@@ -35,7 +34,6 @@ const AppMain: React.FC = (): React.ReactElement => {
         <Articles />
         <div className="gradient-04 z-0" />
       </div>
-      {/* <World /> */}
       <Footer />
     </div>
   );

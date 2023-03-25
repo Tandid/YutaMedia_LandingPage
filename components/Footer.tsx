@@ -36,7 +36,7 @@ const Footer: React.FC = (): React.ReactElement => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] opacity-10 bg-black" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-black">Yuta Media</h4>
+          <Image src="/Hero.png" alt="menu" width="100" height="24" />
           <p className="font-normal text-[14px] text-black opacity-50">
             Copyright 2022 © Yuta Media, LLC | Purpose Driven Content Marketing
           </p>
