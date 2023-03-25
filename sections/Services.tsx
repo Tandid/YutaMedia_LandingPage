@@ -20,7 +20,7 @@ const Services: React.FC = (): React.ReactElement => (
         title={<>We're a boutique content studio designed to help you grow.</>}
         textStyles="text-center"
       />
-      <div className="mt-[50px] flex flex-col gap-[30px]">
+      <div className="mt-[50px] flex flex-row flex-wrap justify-evenly gap-[30px] ml-50">
         {services.map(
           (service: Service, index: number): React.ReactElement => (
             <ServiceCard

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { fadeIn } from "../utils/motion";
+import { fade } from "../utils/motion";
 
 interface ServiceCardProps {
   index: number;
@@ -15,38 +15,24 @@ const ServiceCard: React.FC<ServiceCardProps> = (
   const { index, title, subtitle, imgUrl } = props;
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 1)}
-      whileHover={{
-        scale: 1.03,
-      }}
-      className="flex md:flex-row flex-col gap-4"
+      variants={fade("right", "spring", index * 0.3, 1)}
+      className="flex items-center text-center md:flex-col flex-col gap-6 w-100"
     >
       <Image
         src={imgUrl}
         width="0"
         height="0"
         alt="article"
-        className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
+        className="md:w-[270px] w-full h-[250px] border-[1px] rounded-[32px] object-cover"
         unoptimized
       />
-      <div className="w-full flex justify-between items-center">
-        <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-          <h4 className="font-bold lg:text-[42px] text-[26px] text-gray-800">
-            {title}
-          </h4>
-          <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-gray-600">
-            {subtitle}
-          </p>
-        </div>
-        <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-black cursor-pointer">
-          <Image
-            src="/Arrow.svg"
-            width="0"
-            height="0"
-            alt="arrow"
-            className="w-[50%] h-[50%] object-contain"
-          />
-        </div>
+      <div className="flex flex-col">
+        <h3 className="font-bold lg:text-[36px] text-[26px] text-gray-800">
+          {title}
+        </h3>
+        <p className="md:w-[350px] mt-[16px] font-normal lg:text-[20px] text-[14px] text-gray-600">
+          {subtitle}
+        </p>
       </div>
     </motion.div>
   );
