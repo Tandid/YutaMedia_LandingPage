@@ -6,12 +6,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "../sections/About";
 import Explore from "../sections/Explore";
-import Feedback from "../sections/Feedback";
 import GetStarted from "../sections/GetStarted";
 import Main from "../sections/Main";
 import Banner from "../sections/Banner";
 import Articles from "../sections/Articles";
-import WhatsNew from "../sections/WhatsNew";
 import World from "../sections/World";
 
 const AppMain: React.FC = (): React.ReactElement => {
@@ -29,7 +27,6 @@ const AppMain: React.FC = (): React.ReactElement => {
       <Main />
       <div className="relative">
         <About />
-        <Feedback />
         <div className="gradient-03 z-0" />
         <div ref={exploreRef}>
           <Explore />
@@ -38,7 +35,6 @@ const AppMain: React.FC = (): React.ReactElement => {
       <div className="relative">
         <GetStarted />
         <div className="gradient-03 z-0" />
-        <WhatsNew />
       </div>
       {/* <World />  */}
       <div className="relative">
