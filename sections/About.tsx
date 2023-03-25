@@ -13,16 +13,13 @@ const About: React.FC = (): React.ReactElement => (
       viewport={{ once: false, amount: 0.25 }}
       className="2xl:max-w-[1280px] w-full mx-auto flex justify-center items-center flex-col"
     >
-      <TypingText
-        title="| Stop publishing mindlessly. Start making a difference. "
-        textStyles="text-center"
-      />
+      <TypingText title="| Why We're Different" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-slate-300"
       >
         <span className="font-extrabold text-black">
-          Purpose driven content marketing
+          Quality is everything.
         </span>
       </motion.p>
       <motion.img

@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
-import InsightCard from "../components/InsightCard";
+import ArticleCard from "../components/ArticleCard";
 import TypingText from "../components/TypingText";
-import { insights } from "../data/data";
+import { Articles } from "../data/data";
 import TitleText from "../components/TitleText";
-import { Insight } from "../data/data.interface";
+import { Article } from "../data/data.interface";
 
-const Insights: React.FC = (): React.ReactElement => (
+const Articles: React.FC = (): React.ReactElement => (
   <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
     <motion.div
       variants={staggerContainer()}
@@ -18,12 +18,12 @@ const Insights: React.FC = (): React.ReactElement => (
       <TypingText title="| Articles" textStyles="text-center" />
       <TitleText title={<>Our latest resources</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
-        {insights.map(
-          (insight: Insight, index: number): React.ReactElement => (
-            <InsightCard
-              key={`insight-${index}`}
+        {Articles.map(
+          (Article: Article, index: number): React.ReactElement => (
+            <ArticleCard
+              key={`Article-${index}`}
               index={index + 1}
-              {...insight}
+              {...Article}
             />
           )
         )}
@@ -32,4 +32,4 @@ const Insights: React.FC = (): React.ReactElement => (
   </section>
 );
 
-export default Insights;
+export default Articles;

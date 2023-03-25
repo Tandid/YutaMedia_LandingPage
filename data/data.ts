@@ -1,7 +1,7 @@
 import {
   Company,
   ExploreWorld,
-  Insight,
+  Article,
   NewFeature,
   Social,
 } from "./data.interface";
@@ -87,7 +87,7 @@ export const newFeatures: NewFeature[] = [
   },
 ];
 
-export const insights: Insight[] = [
+export const Articles: Article[] = [
   {
     imgUrl: "/Planet06.png",
     title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",

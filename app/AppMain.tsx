@@ -10,7 +10,7 @@ import Feedback from "../sections/Feedback";
 import GetStarted from "../sections/GetStarted";
 import Main from "../sections/Main";
 import Banner from "../sections/Banner";
-import Insights from "../sections/Insights";
+import Articles from "../sections/Articles";
 import WhatsNew from "../sections/WhatsNew";
 import World from "../sections/World";
 
@@ -41,7 +41,7 @@ const AppMain: React.FC = (): React.ReactElement => {
       </div>
       {/* <World />  */}
       <div className="relative">
-        <Insights />
+        <Articles />
         <div className="gradient-04 z-0" />
         <Feedback onStampClicked={onStampClicked} />
       </div>

@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeIn } from "../utils/motion";
 
-interface InsightCardProps {
+interface ArticleCardProps {
   index: number;
   title: string;
   subtitle: string;
   imgUrl: string;
 }
 
-const InsightCard: React.FC<InsightCardProps> = (
-  props: InsightCardProps
+const ArticleCard: React.FC<ArticleCardProps> = (
+  props: ArticleCardProps
 ): React.ReactElement => {
   const { index, title, subtitle, imgUrl } = props;
   return (
@@ -49,4 +49,4 @@ const InsightCard: React.FC<InsightCardProps> = (
   );
 };
 
-export default InsightCard;
+export default ArticleCard;
