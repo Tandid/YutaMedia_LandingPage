@@ -12,7 +12,7 @@ const Main: React.FC = (): React.ReactElement => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8"
+      className="2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col"
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}

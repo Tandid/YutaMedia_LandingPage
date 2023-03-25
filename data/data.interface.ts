@@ -17,6 +17,12 @@ export interface Article {
   subtitle: string;
 }
 
+export interface Service {
+  imgUrl: string;
+  title: string;
+  subtitle: string;
+}
+
 export interface Social {
   name: string;
   url: string;

@@ -1,4 +1,4 @@
-import { Company, Roadmap, Article, Social } from "./data.interface";
+import { Company, Roadmap, Article, Social, Service } from "./data.interface";
 
 export const companies: Company[] = [
   {
@@ -71,6 +71,25 @@ export const roadmaps: Roadmap[] = [
 ];
 
 export const articles: Article[] = [
+  {
+    imgUrl: "/Article01.png",
+    title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",
+    subtitle: "Content Strategy - March 15, 2022",
+  },
+  {
+    imgUrl: "/Article02.png",
+    title:
+      "Guide: How to easily earn content marketing buy-in across your organization",
+    subtitle: "Content Strategy - March 15, 2022",
+  },
+  {
+    imgUrl: "/Article03.png",
+    title: "How Yuta Media Creates Content That Matters",
+    subtitle: "Content Strategy - March 15, 2022",
+  },
+];
+
+export const services: Service[] = [
   {
     imgUrl: "/Article01.png",
     title: "Content Driven Sales: Strategies, Formats, and Tips that Work!",
