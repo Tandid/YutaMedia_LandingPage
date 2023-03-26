@@ -25,7 +25,6 @@ const RoadmapCard: React.FC<RoadmapCardProps> = (
     title,
     subtitle,
     description,
-    color,
     active,
     handleClick,
   } = props;
