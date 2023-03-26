@@ -35,9 +35,17 @@ const Main: React.FC = (): React.ReactElement => (
                 <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-gray-800">
                   Stop publishing mindlessly.
                 </h1>
-                <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-gray-800">
+                <h1 className="mt-[20px] font-bold text-[24px] leading-[30px] text-gray-800">
                   Start making a difference.
                 </h1>
+                <button
+                  type="button"
+                  className="py-4 px-6 bg-sky-300 rounded-[32px]"
+                >
+                  <span className="font-bold text-[16px] text-white">
+                    Let's Chat!
+                  </span>
+                </button>
               </div>
             </motion.div>
             <motion.div
