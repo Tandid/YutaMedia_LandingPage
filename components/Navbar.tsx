@@ -19,7 +19,7 @@ const Navbar: React.FC = (): React.ReactElement => (
       <h3 className="uppercase font-extrabold text-[16px] leading-[30px] text-gray-800">
         Case Studies
       </h3> */}
-      <Image src="/Menu.svg" alt="menu" width="24" height="10" />
+      <Image src="/menu.svg" alt="menu" width="24" height="10" />
     </div>
   </motion.nav>
 );

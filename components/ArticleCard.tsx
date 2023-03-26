@@ -40,7 +40,7 @@ const ArticleCard: React.FC<ArticleCardProps> = (
         </div>
         <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-black cursor-pointer">
           <Image
-            src="/Arrow.svg"
+            src="/arrow.svg"
             width="0"
             height="0"
             alt="arrow"

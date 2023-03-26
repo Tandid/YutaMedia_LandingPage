@@ -131,18 +131,18 @@ export const services: Service[] = [
 export const socials: Social[] = [
   {
     name: "twitter",
-    url: "/Twitter.svg",
+    url: "/twitter.svg",
   },
   {
     name: "linkedin",
-    url: "/Linkedin.svg",
+    url: "/linkedin.svg",
   },
   {
     name: "instagram",
-    url: "/Instagram.svg",
+    url: "/instagram.svg",
   },
   {
     name: "facebook",
-    url: "/Facebook.svg",
+    url: "/facebook.svg",
   },
 ];
